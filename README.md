@@ -5,7 +5,7 @@ Full implementation of the algorithms described in my book This is the Procedure
 Here are the algorithm names with references:
 1. [Media Compression](01-jpeg.cpp) (C++ implementation of JPEG Encoding) [Reference](http://www.cs.northwestern.edu/~agupta/_projects/image_processing/web/JPEGEncoding/report.html)
 2. [Bluetooth Network Formation](02-bluetooth.txt) [Reference](https://link.springer.com/content/pdf/10.1007%2F11422778_127.pdf)
-3. [QuickSort](03-quicksort.txt) (Algorithm as described in CLRS) [Reference] (https://users.cs.fiu.edu/~giri/teach/5407/F08/Lec7.pdf)
+3. [QuickSort](03-quicksort.txt) (Algorithm as described in CLRS) [Reference](https://users.cs.fiu.edu/~giri/teach/5407/F08/Lec7.pdf)
 4. [PageRank](04-pagerank.py) [Reference](http://www.geeksforgeeks.org/page-rank-algorithm-implementation/)
 5. [RSA Algorithm](05-rsa.c) (C implementation of RSA for small numbers) [Reference](http://www.geeksforgeeks.org/rsa-algorithm-cryptography/)
 6. [Fast Fourier Transform](06-fft.py) (Python implementation of FFT) [Reference](https://rosettacode.org/wiki/Fast_Fourier_transform#Python)
