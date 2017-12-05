@@ -1,0 +1,23 @@
+/* Graph G = (V,E), weight function w, source node s */
+Djikstra(G, w, s) {
+	for u in G.V() {
+		d[u] = Math.infinity
+		color[u] = Color.white
+	}
+	d[s] = 0
+	pred[s] = nil
+	Q = Queue.init()
+	Q.insertAll(G.V())
+
+	while (!Q.isEmpty()) {
+		u = Q.extractMin()
+		for v in Adj[u] {
+			if (d[u] + w[u][v] < d[v]) {
+				d[v] = d[u] + w[u][v]
+				Q.decreaseKey(v, d[v])
+				pred[v] = u
+			}
+		}
+		color[u] = Color.black
+	}
+}
